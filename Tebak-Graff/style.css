@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    
+}
+
+.container-game {
+    font-display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    /* background: tomato; */
+    /* width: 300px; */
+    height:40vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    
+}
+
+.game {
+    font-display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background: tomato;
+    width: 350px;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    margin-top: 2px;
+}
+
+img {
+    margin-top: 2px;
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+input {
+    
+    padding: 5px;
+    width: 80%;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#feedback {
+    
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.nav-game {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: rgb(199, 153, 94);
+    cursor: pointer;
+    transition: background-color .5s ease-in-out;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
